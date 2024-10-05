@@ -61,19 +61,11 @@ body{
   font-weight: var(--fw-400);
 
   padding: var(--content-padding);
-}
 
-.bg-pattern-top{
-  position: absolute;
-  top: -35%;
-  left: -35%;
-  z-index: -1;
-}
-.bg-pattern-bottom{
-  position: absolute;
-  bottom: -35%;
-  right: -35%;
-  z-index: -1;
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 51vw bottom 20vh, left 45vw top 50vh;
+
 }
 
 .profile{
