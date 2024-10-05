@@ -6,21 +6,50 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Profile card component</title>
 </head>
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
+  <main class="profile">
+    <img src="images/bg-pattern-top.svg" alt="top background pattern" class="bg-pattern-top">
+    <img src="images/bg-pattern-bottom.svg" alt="bottom background pattern" class="bg-pattern-bottom">
+    <div class="profile__bg">
+      <img src="images/bg-pattern-card.svg" alt="background-card">
+    </div>
 
-  803K
-  Likes
+    <img class="profile__img " src="images/image-victor.jpg" alt="Victor Crest profile picture" class="profile__img">    
 
-  1.4K
-  Photos
+    <div class="profile__info mg-top">
+      <p class="info__name">Victor Crest</p>
+      <p class="info__age">26</p>
+    </div>
+
+    <p class="profile__city mg-top-small">London</p>
+
+    <hr class="mg-top">
+
+    <div class="profile__stats mg-top">
+      <div>
+        <p class="stats__number">80K</p>
+        <p class="stats__desc">Followers</p>
+      </div>
+      
+      <div>
+        <p class="stats__number">803K</p>
+        <p class="stats__desc">Likes</p>
+      </div>
+      
+      <div>
+        <p class="stats__number">1.4K</p>
+        <p class="stats__desc">Photos</p>
+      </div>
+
+    </div>
+
+  </main>
 </body>
 </html>
